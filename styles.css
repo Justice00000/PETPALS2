@@ -1,0 +1,109 @@
+body {
+    background-color: grey !important;
+}
+/* Custom CSS for navbar */
+.navbar {
+    background-color: olive !important; /* Olive background color */
+  }
+  
+  /* Custom CSS for navbar links */
+  .navbar-nav .nav-link {
+    color: white !important; /* White text color */
+  }
+  
+  /* Custom CSS for logo */
+  .navbar-brand img {
+    max-height: 30px; /* Adjust maximum height of the logo */
+  }
+  
+  /* Custom CSS for search bar */
+  .form-control {
+    width: auto; /* Allow search bar to adjust width based on content */
+  }
+  
+  /* Custom CSS for search button */
+  .btn-outline-success {
+    color: white; /* White text color */
+    border-color: white; /* White border color */
+  }
+  
+  /* Custom CSS for toggle button icon */
+  .navbar-toggler-icon {
+    color: white !important; /* White color for toggle button icon */
+    font-weight: 700;
+    border-bottom: 3px solid white;
+    border-top: 3px solid white;
+  }
+
+  .form-group {
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 50px;
+  }
+
+  .btn-pay {
+    background-color: #DBF4AD !important;
+    color: black;
+    margin-top: 70px;
+  }
+  /* Set a fixed width for input fields */
+  input[type="text"] {
+    width: 100%;
+    border-radius: 20px;
+  }
+
+  label {
+    font-weight: 700;
+    width: 60%;
+  }
+
+  .footer {
+    background-color: olive !important;
+  }
+
+  .footer {
+    background-color: olive; /* Set the background color */
+    padding: 20px 0; /* Add some padding */
+    margin-top: 270px;
+  }
+  
+  .footer img {
+    max-width: 100%; /* Ensure images don't exceed their container width */
+    height: auto; /* Maintain aspect ratio */
+  }
+  
+  .footer p {
+    margin-bottom: 0; /* Remove bottom margin from paragraphs */
+    font-size: 14px; /* Adjust font size */
+  }
+  
+  .footer .col-auto {
+    display: flex; /* Use flexbox to align items horizontally */
+    align-items: left; /* Center align items vertically */
+    margin-bottom: 10px; /* Add some spacing between image-text pairs */
+    margin-right: -25px;
+  }
+  
+  .white-line {
+    border-top: 1px solid white; /* Set the border style */
+  }
+  
+  /* Media query for screens smaller than 576px (extra small devices) */
+  @media (max-width: 575.98px) {
+    .footer p {
+        font-size: 12px; /* Decrease font size for smaller screens */
+    }
+  }
+  
+  /* Media query for screens larger than 575.98px */
+  @media (min-width: 576px) {
+    .footer .col-auto {
+        margin-bottom: 5px; /* Add some spacing between image-text pairs */
+    }
+  }
+  
+  /* Media query for screens larger than 767.98px */
+  @media (min-width: 768px) {
+    .footer .col-auto {
+        margin-bottom: 30px; /* Add some spacing between image-text pairs */
+    }
+  }  

@@ -10,7 +10,7 @@ YOUR_DOMAIN = 'http://127.0.0.1:5000'
 
 @app.route('/')
 def home():
-    return render_template('index.html')
+    return render_template('home.html')
 
 @app.route('/payment', methods=['GET', 'POST'])
 def payment():

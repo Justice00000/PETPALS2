@@ -8,9 +8,9 @@ stripe.api_key = 'sk_test_51P3asWDifqfBQ4vNOQ7XLKTZLViJWv5zCygKTJck0aO8SvMO8aGTr
 
 YOUR_DOMAIN = 'http://127.0.0.1:5000'
 
-@app.route('/payment')
+@app.route('/')
 def home():
-    return render_template('home.html')
+    return render_template('index.html')
 
 @app.route('/payment', methods=['GET', 'POST'])
 def payment():
@@ -33,7 +33,7 @@ def payment():
         return redirect(checkout_session.url, code=303)
     else:
         # Handle GET request to /payment (optional)
-        return render_template('payment.html')
+        return render_template('index.html')
 
 if __name__ == "__main__":
     app.run(port=5000, debug=True)
